@@ -172,9 +172,27 @@ nav{
 .sponsor-companies{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    margin-bottom: 130px;
 }
 .sponsor-companies img{
     filter: grayscale(100%);
+}
+/* footer styles */
+.footer-info{
+    max-width: 1440px;
+    background-color: rgba(255, 244, 231, 1);
+    align-items: center;
+    justify-items: center;
+    border-radius: 8px;
+    margin: 0px 240px 216px 240px;  
+    
+    
+    
+}
+.footer-title{
+    font-size: 1.25rem;
+    font-weight: 400;
+    
 }
 
 /* responsive media query */
